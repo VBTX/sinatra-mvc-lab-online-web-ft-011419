@@ -11,6 +11,7 @@ class PigLatinizer
     elsif new_word[/\A[bcdfghjklmnpqrstvwxyz]*/i]
     new_word = word + word[0]
     new_word[0] = ''
+    new_word = new_word + "ay"
     else
     new_word = new_word + "ay"
   end
