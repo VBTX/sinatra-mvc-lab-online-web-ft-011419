@@ -10,7 +10,8 @@ class PigLatinizer
     new_word = new_word + "way"
     else
     new_word = new_word + "ay"
-    new_arr << new_word
+  end
+  new_arr << new_word
   end
   new_string = new_arr.join(" ")
   new_string
