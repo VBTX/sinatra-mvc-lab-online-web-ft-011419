@@ -14,7 +14,6 @@ class PigLatinizer
     new_word[0] = ''
     new_word = word + word[0]
     new_word = new_word + "ay"
-        binding.pry
     else
     new_word = new_word + "ay"
   end
