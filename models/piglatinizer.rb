@@ -2,12 +2,6 @@
 
 
 class PigLatinizer
-  #attr_accessor :words
-
-  #def initialize(words=nil)
-#    @text = words
-#  end
-
   def piglatinize(text)
     @array = text.split(" ")
     new_arr = []
