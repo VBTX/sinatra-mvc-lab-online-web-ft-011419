@@ -6,6 +6,9 @@ class PigLatinizer
     @array.each do |word|
     new_word = word + word[0]
     new_word[0] = ''
+    if new_word.size == 1
+    new_word = new_word + "way"
+    else
     new_word = new_word + "ay"
     new_arr << new_word
   end
