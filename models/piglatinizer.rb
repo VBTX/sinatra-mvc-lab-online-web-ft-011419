@@ -8,6 +8,7 @@ class PigLatinizer
     new_word[0] = ''
     if new_word.size == 1
     new_word = new_word + "way"
+  elsif new_word[/\A[bcdfghjklmnpqrstvwxyz]*/i]
     else
     new_word = new_word + "ay"
   end
