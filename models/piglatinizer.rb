@@ -1,6 +1,4 @@
 
-
-
 class PigLatinizer
   def piglatinize(text)
     @array = text.split(" ")
